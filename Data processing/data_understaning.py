@@ -27,3 +27,4 @@ for file in files:
     print(f"{file} Statistcs: \n {df.describe()}")
     
     print(f"{file} Missing: \n {df.isnull().sum()}")
+
